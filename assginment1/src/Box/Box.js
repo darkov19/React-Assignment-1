@@ -1,6 +1,7 @@
 import React from "react";
 import UserInput from "../UserInput/UserInput";
 import UserOutput from "../UserOutput/UserOutput";
+import "./Box.css";
 
 const box = () => {
     return (
@@ -10,3 +11,5 @@ const box = () => {
         </div>
     );
 };
+
+export default box;
